@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/account?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybaits:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+log4j:
+  appender:
+    A1:
+      Encoding: UTF-8
